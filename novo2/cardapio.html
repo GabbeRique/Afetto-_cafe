@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cardápio</title>
+    <link rel="stylesheet" href="estilo.css">
+    <style>
+        .cardapio {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .item {
+            width: 200px;
+            margin: 20px;
+            padding: 20px;
+            border: 1px solid #ddd;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        a {
+            text-decoration: none;
+            color: black;
+        }
+
+        .itens a:hover {
+            color: indianred;
+            font-size: larger;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="itens">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="sobre_nos.html">Sobre Nós</a></li>
+                    <li><a href="cardapio.html">Cardápio</a></li>
+                    <li><a href="promocoes.html">Promoções</a></li>
+                    <li><a href="fale_conosco.html">fale conosco</a></li>
+                    <li><a href="eventos.html">eventos</a></li>
+                    <li><a href="localizacao.html">localização</a></li>
+                    <li><a href="testemunhos.html">testemunhos</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                    <li><a href="galeria.html">galeria</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h1>Cardápio</h1>
+            <div class="cardapio">
+                <div class="item">
+                    <h2>Café</h2>
+                    <p>R$ 5,00</p>
+                    <p><a href="MDC.html">Escolha seu café</a></p>
+                </div>
+                <div class="item">
+                    <h2>Chá</h2>
+                    <p>R$ 4,00</p>
+                </div>
+                <div class="item">
+                    <h2>Pão de queijo</h2>
+                    <p>R$ 6,00</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>2024 Afetto</p>
+    </footer>
+</body>
+
+</html>
